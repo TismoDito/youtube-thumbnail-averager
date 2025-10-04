@@ -13,6 +13,18 @@ for more information, execute `python average_thumbnails.py --help`
 
 example for [emnerson](https://youtube.com/emnersonn) and 100 thumbnails: `python average_thumbnails.py --max-videos 100 --channel "@emnersonn"`
 
+`python average_thumbnail.py -h` outputs this help message:
+
+`average_thumbnails.py [-h] --channels str [str ...]
+                      [--playlists str [str ...]] [--cookies str]
+                      [--max-videos int] [--thumbnail-resolution str]
+                      [--average-blend | --no-average-blend]
+                      [--median-blend | --no-median-blend]
+                      [--geometric-mean-blend | --no-geometric-mean-blend]
+                      [--overlay-blend | --no-overlay-blend]
+                      [--max-blend | --no-max-blend]
+                      [--min-blend | --no-min-blend]`
+
 # other notes
 
 requirements for those who don't feel like looking at the [req file](./requirements.txt):
